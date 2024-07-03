@@ -1,0 +1,32 @@
+#personal-bookmarks .bookmark-item .toolbarbutton-icon {
+  display: none !important;
+}
+
+.titlebar-color {
+  color: -moz-accent-color-foreground;
+  background-color: #b2afaf;
+}
+
+.tab-background {
+  color: -moz-accent-color-foreground;
+  border-radius: 4px 4px !important;
+  margin-bottom: -12px !important;
+}
+
+.tabbrowser {
+  height: 80%;
+}
+
+.tabbrowser-tab:not([selected='true']):not([multiselected='true'])
+  .tab-background {
+  background-color: color-mix(in srgb, currentColor 5%, transparent);
+}
+
+menupopup > menu,
+menupopup > menuitem {
+  padding-block: 2px !important;
+}
+
+:root {
+  --arrowpanel-menuitem-padding: 2px !important;
+}
